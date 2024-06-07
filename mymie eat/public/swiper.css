@@ -1,0 +1,75 @@
+.swiper {
+    width: 95vw;
+    height: 80vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+
+  .swiper-slide .reviews {
+    display: block;
+    width: 10%;
+    height: 23%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(43, 42, 42);
+    border: 3px solid red;
+    margin: 0 560px;
+
+    
+  }
+
+  .top-text{
+    padding-top: 80px ;
+    text-align: center;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #text{
+    font-size: 12pt;
+    color: rgb(73, 72, 72);
+  }
+
+  #texts{
+    font-size: 10pt;
+    color: rgb(73, 72, 72);
+
+  }
+
+  .discover-text3{
+    font-size: 30px;
+    color: red;
+    font-family: 'courgette';
+    /* text-shadow: 2px 5px 20px black; */
+}
+.discover-text4{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: 'poppins';
+    color: black;
+    /* text-shadow: 2px 5px 20px black; */
+}
+
+#star{
+    color: #EC1D25;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    /* background-color: rgb(92, 91, 91); */
+    color: white;
+}
