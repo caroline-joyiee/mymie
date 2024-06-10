@@ -218,13 +218,19 @@ header{
     align-items: center;
     
 }
-#menu-text {
+#menu-text p {
     color: rgb(77, 74, 74);
+    font-size: 12pt;
  
+}
+
+#menu-text span{
+    font-size: 10pt;
 }
 #menu-text h5{
     color: black;
     letter-spacing: 3px;
+   
 
 }
 .menu-image{
@@ -322,7 +328,7 @@ header{
     height: 60vh;
     position: relative;
     margin-bottom: 100px;
-    margin-top: 80px;
+    
     
 
 }
@@ -350,6 +356,7 @@ header{
     padding: 120px;
     display: flex;
     justify-content: space-between;
+    margin-top: -100px;
 
 }
 #reservations img{
@@ -392,6 +399,48 @@ header{
     font-family: 'montserrat';
     
 
+}
+.specials{
+    width: 100vw;
+    height: 30vh;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.special-text{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    
+}
+.input-mail input {
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    border: 0.5px ridge grey;
+
+    
+}
+
+.btnsign button {
+    padding: 10px 30px;
+    background-color: #222222;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 10pt;
+
+
+}
+
+.btnsign button:hover{
+    background-color: red;
 }
 
 #footer{
@@ -438,7 +487,7 @@ header{
     height: 10vh;
 }
 
-#pic-grid{
+#pic-grid{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: -5px ;
