@@ -35,6 +35,7 @@
   .swiper {
     margin-left: auto;
     margin-right: auto;
+    
   }
 
   #text{
@@ -52,6 +53,7 @@
     font-size: 30px;
     color: red;
     font-family: 'courgette';
+    margin-right: 20px ;
     /* text-shadow: 2px 5px 20px black; */
 }
 .discover-text4{
@@ -67,14 +69,14 @@
 }
 
 .swiper-button-next, .swiper-button-prev {
-    width: 200px;
-    height: 200px;
+    width: 10px !important;
+    height: 10px !important;
     border-radius: 50%;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(92, 91, 91);
     margin-bottom: 500px; ;
-    color: white;
-    align-items: center;
+    color: white !important;
+    margin-bottom: -500px !important;
 
   }
 
@@ -85,20 +87,7 @@
     border-radius: 10px;
 }
 
-/* .swiper-mySwipers{
-  background-image: url(../assests/images/food-712665_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 80vh;
-} 
 
-.overblack{
-    background-color: rgba(0, 0, 0,0.8);
-    
-    top: 0;
-    left: 0;
-  } */
 .final-icons{
   background-color: rgb(3, 3, 3);
   
@@ -133,4 +122,3 @@
 
 
 
-}
