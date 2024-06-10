@@ -6,6 +6,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .poppins-bold {
@@ -30,9 +31,11 @@ body {
     padding: 10px 80px;
     align-items: center;
     position: fixed;
-    width: 80vw;
+    width: 90vw;
     z-index: 100;
-   
+
+   background-color: rgba(252, 248, 248, 0.5) ; 
+     
 }
 
 #nav-links{
@@ -98,7 +101,7 @@ header{
    
     background-color: red;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 20px;
     font-size: 14px;
     border-radius: 10px;
     text-decoration: none;
@@ -148,13 +151,14 @@ header{
 
 #about-link{
     display: flex;
-  flex-direction: row;
-    text-indent: 60px;
     font-family: 'montserrat';
     font-size: 15px;
     color: rgb(95, 95, 95);
     justify-content: center;
-    margin-right: 95px;
+    /* margin-right: 95px; */
+}
+.arrow{
+    margin-left: -80px;
 }
 .mini-text{
     text-indent: 50px;
@@ -201,6 +205,13 @@ header{
     justify-content: space-around ;
     align-items: center;
 }
+#menu-controls{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-bottom: 300px;
+}
 #menu-size{
     width: 300px;
     height: 200px;
@@ -227,7 +238,7 @@ header{
     background-color: #F4F1EB;
     width: 100vw;
     height: 130vh;
-    margin-top: 200px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -311,6 +322,7 @@ header{
     height: 60vh;
     position: relative;
     margin-bottom: 100px;
+    margin-top: 80px;
     
 
 }
@@ -429,7 +441,8 @@ header{
 #pic-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    grid-column-gap: -5px ;
+    margin-left: 0px;
     
 }
 
@@ -440,8 +453,7 @@ header{
 
 #pic-grid a:hover{
     background-color: rgba(255, 0, 0, 0.8);
-    width: 70px;
-    height: 70px;
+    
 }
 
 
