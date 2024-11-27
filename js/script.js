@@ -11,3 +11,11 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  // Menu toggle script
+const menuBar = document.querySelector('.menu-bar');
+const navLinks = document.getElementById('nav-links');
+
+menuBar.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});

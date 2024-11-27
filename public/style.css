@@ -70,6 +70,36 @@ body {
     
 }
 
+@media (max-width: 768px) {
+    #logo {
+        width: 60px; /* Reduce logo size for smaller screens */
+    }
+
+    #nav-bar {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px 20px; /* Reduce padding */
+        align-items: center; /* Center items */
+    }
+
+    #nav-links {
+        flex-direction: column; /* Stack navigation links vertically */
+        row-gap: 10px; /* Add spacing between links */
+        font-size: 10px; /* Reduce font size */
+        text-align: center; /* Center-align text */
+    }
+
+    #hero {
+        height: 80vh; /* Adjust hero height */
+        background-position: center; /* Center the background image */
+        background-size: cover; /* Ensure image fills the section */
+    }
+
+    #hero-overlay {
+        padding: 20px; /* Add padding for better readability */
+        text-align: center; /* Center-align overlay content */
+    }
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -212,6 +242,85 @@ header{
     align-items: center;
     margin-bottom: 300px;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sub-text-one {
+        font-size: 40px; /* Reduce font size for smaller screens */
+    }
+
+    #sub-text-two {
+        font-size: 60px; /* Adjust large text for readability */
+    }
+
+    .menu-button {
+        padding: 15px 15px; /* Reduce button padding */
+        font-size: 12px; /* Adjust button text size */
+    }
+
+    #about {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 30px; /* Reduce padding */
+        row-gap: 15px; /* Adjust spacing */
+    }
+
+    #about-image {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 20px; /* Adjust for smaller screens */
+    }
+
+    #about-text {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Adjust height */
+        text-align: center;
+    }
+
+    .sub-header .courgette-regular {
+        font-size: 20px; /* Adjust heading font size */
+    }
+
+    .sub-header .poppins-bold {
+        font-size: 30px; /* Adjust bold text size */
+        letter-spacing: 2px; /* Adjust spacing */
+        padding-bottom: 20px;
+    }
+
+    #discover {
+        height: 50vh; /* Adjust section height */
+        background-size: cover;
+        background-position: center; /* Center the background image */
+    }
+
+    #discover-overlay {
+        height: 100%; /* Ensure overlay covers full height */
+    }
+
+    .top-text {
+        padding-top: 100px; /* Adjust padding for spacing */
+    }
+
+    .discover-text1 {
+        font-size: 20px; /* Adjust text size */
+    }
+
+    .discover-text2 {
+        font-size: 30px; /* Reduce font size for smaller screens */
+        letter-spacing: 10px; /* Adjust letter spacing */
+    }
+
+    #menu-control,
+    #menu-controls {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px; /* Reduce padding */
+        row-gap: 20px; /* Add spacing between elements */
+    }
+}
+
 #menu-size{
     width: 300px;
     height: 200px;
@@ -507,5 +616,132 @@ header{
     
 }
 
+@media (max-width: 768px) {
+    #menu-size {
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height dynamically */
+        align-items: center;
+    }
 
+    #menu-text p {
+        font-size: 10pt; /* Smaller text for better readability */
+    }
 
+    #menu-text span {
+        font-size: 8pt; /* Adjust span text size */
+    }
+
+    #menu-text h5 {
+        font-size: 12pt; /* Scale heading */
+    }
+
+    .menu-image {
+        width: 100%; /* Responsive width */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 10px; /* Reduced radius */
+        padding-top: 20px; /* Adjust padding */
+    }
+
+    #discover-menu {
+        padding: 50px 10px; /* Reduce padding */
+        height: auto; /* Adjust height */
+        margin-top: 50px; /* Reduce margin */
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column for mobile */
+        gap: 10px; /* Smaller gap */
+        width: 90%; /* Adjust width */
+    }
+
+    .group1, .group2, .group3 {
+        height: auto; /* Dynamic height */
+    }
+
+    .flex-buttons, .flex-buttonn {
+        padding: 15px 20px; /* Adjust padding */
+        font-size: 10pt; /* Reduce font size */
+        position: static; /* Remove relative positioning */
+    }
+
+    #video-sec {
+        height: 40vh; /* Adjust height */
+        margin-bottom: 50px; /* Reduce margin */
+    }
+
+    #video {
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+    }
+
+    #reservations {
+        flex-direction: column; /* Stack content */
+        align-items: center; /* Center elements */
+        padding: 30px; /* Adjust padding */
+        margin-top: 20px; /* Add margin for spacing */
+    }
+
+    #reservations img {
+        width: 90%; /* Responsive width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #input-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 15px; /* Adjust gap */
+    }
+
+    #input-grid input {
+        width: 100%; /* Full width */
+    }
+
+    #book-tablebtn {
+        margin: 20px auto; /* Center button */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    .specials {
+        height: auto; /* Adjust height */
+        padding: 20px; /* Add padding */
+        flex-direction: column; /* Stack content */
+    }
+
+    .special-text {
+        margin-left: 0; /* Center text */
+        text-align: center; /* Align text */
+    }
+
+    .input-mail input {
+        width: 100%; /* Full width */
+    }
+
+    .btnsign button {
+        margin: 20px 0; /* Adjust margin */
+    }
+
+    #footer {
+        flex-direction: column; /* Stack content */
+        text-align: center; /* Center content */
+        height: auto; /* Adjust height */
+    }
+
+    .first-box {
+        width: 100%; /* Full width */
+        margin: 20px; /* Adjust margin */
+    }
+
+    #black-section {
+        height: auto; /* Adjust height */
+        padding: 10px 0; /* Add padding */
+    }
+
+    #pic-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 10px; /* Adjust gap */
+    }
+
+    #pic-grid img {
+        width: 50px; /* Adjust size */
+        height: 50px;
+    }
+}
